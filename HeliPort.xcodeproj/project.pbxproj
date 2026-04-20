@@ -753,9 +753,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
 			requirement = {
-				minimumVersion = 4.2.2;
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+    			minimumVersion = 4.2.2;
 			};
 		};
 		50C5F2D127C230D6009E3F68 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
